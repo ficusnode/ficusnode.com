@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+/*! Benjamin Danon (sphax3d) 2012-05-21 */
+/*! background from http://subtlepatterns.com/?p=922 */
+
+body {
+  color: #333;
+  background: url("pattern-groovepaper.png?20120521") #f8f8f8;
+  line-height: 1.5em;
+  margin: 1.5em auto;
+  max-width: 60em;
+}
+
+.container {
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-left: 6em;
+}
+
+::selection, ::-moz-selection {color: #fff; background: #3a3;}
+img::selection, img::-moz-selection {background: transparent;}
+
+a:link {
+	color: #3a3;
+	text-decoration: none;
+}
+
+a:visited {
+  color: #338233;
+}
+
+a:hover {
+  text-shadow: 0 0 2px #fff, 0 0 3px rgba(51, 170, 51, .5);
+}
+
+a:visited:hover {
+  text-shadow: 0 0 2px #fff, 0 0 3px rgba(51, 130, 51, .5);
+}
+
+a:active {
+  color: #33be33;
+}
+
+a:visited:active {
+  color: #339633;
+}
+
+p {
+  margin: 0 0 1.5em;
+}
+
+.site-title {
+  font-size: 4em;
+  display: inline-block;
+  *display: inline; /* IE inline-block */
+  line-height: 1.125em;
+  margin: 0 0 .375em;
+  position: relative;
+  vertical-align: top;
+  zoom: 1; /* IE inline-block */
+}
+
+.site-title:link, .site-title:visited {
+  color: #333;
+}
+
+.site-title:hover {
+  text-shadow: 0 0 2px #fff, 0 0 3px rgba(51, 51, 51, .5);
+}
+
+.site-title:active, .site-title:visited:active {
+  color: #555;
+}
+
+.site-title-text {
+  display: inline-block;
+  *display: inline; /* IE inline-block */
+  font-weight: normal;
+  font-size: 1em;
+  margin: 0;
+  vertical-align: top;
+  zoom: 1; /* IE inline-block */
+}
+
+.site-title img {
+  height: 64px;
+  left: -96px;
+  position: absolute;
+  top: 4px;
+  vertical-align: inherit;
+  width: 64px;
+}
+
+.tagline {
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1em;
+  margin: 0 0 1em;
+  position: relative;
+  top: -.5em;
+}
+
+h2 {
+  line-height: 1em;
+  position: relative;
+  top: .5em;
+}
+
+.favicon span { /* Hack for Gecko. Opera works */
+  white-space: nowrap;
+}
+
+.favicon img {
+  border-radius: 2px;
+  bottom: 1px;
+  position: relative;
+  vertical-align: middle;
+}
+
+/*! konami code for nerdz */
+
+.konami {
+  background: url("nyancat-background.png?20120521") #0f4d8f;
+  color: #fff;
+}
+
+.konami ::selection, .konami ::-moz-selection {background: pink;}
+.konami img::selection, .konami img::-moz-selection {background: transparent;}
+
+.konami a:link, .konami a:visited {
+  color: #fff;
+}
+
+.konami a:hover, .konami a:active, .konami a:visited:active {
+  color: pink;
+  text-shadow: none;
+}
+
+.konami .site-title:before {
+  background: url("rainbow-380×45.png?20120521") repeat-x;
+  content: " ";
+  display: block;
+  height: 60px;
+  left: -850px;
+  position: absolute;
+  top: 15px;
+  width: 760px;
+}
+
+.konami .site-title:after {
+  background: url("nyancat-100×70.gif?20120521") no-repeat;
+  content: " ";
+  display: block;
+  height: 70px;
+  left: -118px;
+  position: absolute;
+  top: 4px;
+  width: 100px;
+}
+
+.konami .site-title img {
+  display: none;
+}
+
+/*! responsive */
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 0;
+  }
+  .site-title {
+    font-size: 3em;
+    line-height: 1em;
+    margin: 0 0 .75em;
+  }
+  .site-title img {
+    height: 48px;
+    left: 0;
+    margin-right: .25em;
+    position: relative;
+    top: 0;
+    width: 48px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body {
+    margin: .75em auto;
+  }
+  p {
+    margin: 0 0 .75em;
+  }
+  .site-title {
+    font-size: 2em;
+    line-height: 1.5em;
+    margin: 0 0 .375em;
+  }
+  .site-title img {
+    height: 32px;
+    top: 8px;
+    width: 32px;
+  }
+  .tagline {
+  	font-size: 1.25em;
+  	line-height: 1.2em;
+  	margin: 0 0 .6em;
+  	top: -.3em;
+  }
+  h2 {
+    margin: .5em 0;
+    top: .25em;
+  }
+}
