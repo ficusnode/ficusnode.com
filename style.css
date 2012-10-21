@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/*! Benjamin Danon (sphax3d) 2012-05-21 */
+/*! Benjamin Danon (sphax3d) 2012-10-22 */
 /*! background from http://subtlepatterns.com/?p=922 */
 
 body {
@@ -47,6 +47,12 @@ a:visited:active {
 
 p {
   margin: 0 0 1.5em;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
 }
 
 .site-title {
