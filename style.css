@@ -55,6 +55,11 @@ p {
   word-wrap: break-word;
 }
 
+ins {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .site-title {
   font-size: 4em;
   display: inline-block;
