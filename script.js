@@ -42,15 +42,15 @@ function hasClass(el, className) {
 }
 
 function addClass(el, className) {
-  //if (!hasClass(el, className) {
+  if (!hasClass(el, className)) {
     el.className += " " + className;
-  //}
+  }
 }
 
 function removeClass(el, className) {
-  //if (hasClass(el, className)) {
+  if (hasClass(el, className)) {
     el.className = el.className.replace(regex_className(className), '');
-  //}
+  }
 }
 
 function toggleClass(el, className) {
