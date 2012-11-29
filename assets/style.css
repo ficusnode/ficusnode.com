@@ -83,16 +83,6 @@ ins {
   color: #555;
 }
 
-.site-title-text {
-  display: inline-block;
-  *display: inline; /* IE inline-block */
-  font-weight: normal;
-  font-size: 1em;
-  margin: 0;
-  vertical-align: top;
-  zoom: 1; /* IE inline-block */
-}
-
 .site-title img {
   height: 64px;
   left: -96px;
@@ -100,6 +90,12 @@ ins {
   top: 4px;
   vertical-align: inherit;
   width: 64px;
+}
+
+.site-title h1 {
+  display: inline;
+  font-weight: normal;
+  font-size: 1em;
 }
 
 .tagline {
@@ -148,7 +144,7 @@ h2 {
 }
 
 .konami .site-title:before {
-  background: url("rainbow-380×45.png?20120521") repeat-x;
+  background: url("rainbow-380x45.png?20120521") repeat-x;
   content: " ";
   display: block;
   height: 60px;
@@ -159,7 +155,7 @@ h2 {
 }
 
 .konami .site-title:after {
-  background: url("nyancat-100×70.gif?20120521") no-repeat;
+  background: url("nyancat-100x70.gif?20120521") no-repeat;
   content: " ";
   display: block;
   height: 70px;

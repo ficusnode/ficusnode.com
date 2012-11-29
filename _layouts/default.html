@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang=fr>
+<head>
+  <meta charset=utf-8>
+  <title>{{ page.title }}</title>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name=author content="Benjamin Danon">
+  <meta name=description content="ficus node, l’auto-entreprise de Benjamin Danon, de service en développement et administration web">
+  <meta name=keywords content="ficus node, benjamin, danon, calais">
+  <link rel=stylesheet href="//fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic&amp;subset=latin,latin-ext">
+  <link rel=stylesheet href="assets/style.min.css?201211129">
+  <script src="assets/script.min.js?20121116"></script>
+  <link rel="shortcut icon" type="image/png" href="images/favicon-ficusnode.png?20120607">
+</head>
+<body>
+  <div class=container>
+    <header>
+      <a href="//ficusnode.com" class=site-title><img src="images/logo-ficusnode-64x64.png?20120607" alt="Logo de ficus node" width=64 height=64>{% if page.site-title %}{{ page.site-title }}{% else %}ficus node{% endif %}</a>
+      <p class=tagline>Benjamin Danon, artisan du Web auto-entrepreneur, à Calais</p>
+    </header>
+{{ content }}
+  </div>
+</body>
+</html>
