@@ -1,5 +1,11 @@
 # ficusnode.com jekyll sources
 
+## Install
+
+Install gem dependencies :
+
+  $ bundle
+
 ## Usage
 
 Generate the static site :
