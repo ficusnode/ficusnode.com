@@ -12,6 +12,10 @@ Generate the static site :
 
   $ jekyll
 
+Run the jekyll server and then browse to http://0.0.0.0:4000 :
+
+  $ jekyll --server
+
 Deploy the generated static site :
 
   $ tasks/deploy
