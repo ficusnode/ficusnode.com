@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+jekyll && rsync --recursive --links --perms --times --compress --delete-after _site/ vm.bearnaise.net:/home/sphax3d/ficusnode.com/
