@@ -35,6 +35,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
-  jekyll-asset-pipeline
-  yui-compressor
+  jekyll (= 0.11.2)
+  jekyll-asset-pipeline (= 0.0.4)
+  yui-compressor (= 0.9.6)
