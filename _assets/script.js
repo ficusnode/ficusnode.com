@@ -61,7 +61,25 @@ function toggleClass(el, className) {
   }
 }
 
-konami(function() {
-  body = document.getElementsByTagName('body')[0];
-  toggleClass(body, 'konami');
-});
+function desobfuscateMail() {
+  if (document.querySelectorAll) {
+    els = document.querySelectorAll('span.mail');
+    for (var i = 0; i < els.length; i++) {
+      el = els[i];
+      mail = new Array(el.getAttribute('data-user'), el.getAttribute('data-domain')).join('@');
+      a = document.createElement('a');
+      a.href = 'mailto:' + mail;
+      a.title = el.getAttribute('data-title');
+      a.innerHTML = mail;
+      el.parentNode.replaceChild(a, el);
+    }
+  }
+}
+
+(function (){
+  desobfuscateMail();
+  konami(function() {
+    body = document.getElementsByTagName('body')[0];
+    toggleClass(body, 'konami');
+  });
+})();

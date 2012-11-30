@@ -13,9 +13,6 @@
   - _assets/normalize.css
   - _assets/style.css
   {% endcss_asset_tag %}
-  {% javascript_asset_tag site %}
-  - _assets/script.js
-  {% endjavascript_asset_tag %}
   <link rel="shortcut icon" type="image/png" href="images/favicon-ficusnode.png?20120607">
 </head>
 <body>
@@ -25,6 +22,9 @@
       <p class=tagline>Benjamin Danon, artisan du Web auto-entrepreneur, à Calais</p>
     </header>
 {{ content }}
+  {% javascript_asset_tag site %}
+  - _assets/script.js
+  {% endjavascript_asset_tag %}
   </div>
 </body>
 </html>
