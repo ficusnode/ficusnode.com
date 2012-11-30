@@ -1,6 +1,4 @@
-@charset "utf-8";
-
-/*! Benjamin Danon (sphax3d) 2012-10-22 */
+/*! Benjamin Danon (sphax3d) 2012-11-29 */
 /*! background from http://subtlepatterns.com/?p=922 */
 
 body {
@@ -94,7 +92,7 @@ ins {
 
 .site-title h1 {
   display: inline;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1em;
 }
 

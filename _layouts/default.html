@@ -8,8 +8,14 @@
   <meta name=description content="ficus node, l’auto-entreprise de Benjamin Danon, de service en développement et administration web">
   <meta name=keywords content="ficus node, benjamin, danon, calais">
   <link rel=stylesheet href="//fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic&amp;subset=latin,latin-ext">
-  <link rel=stylesheet href="assets/style.min.css?201211129">
-  <script src="assets/script.min.js?20121116"></script>
+  {% css_asset_tag site %}
+  - _assets/charset.css
+  - _assets/normalize.css
+  - _assets/style.css
+  {% endcss_asset_tag %}
+  {% javascript_asset_tag site %}
+  - _assets/script.js
+  {% endjavascript_asset_tag %}
   <link rel="shortcut icon" type="image/png" href="images/favicon-ficusnode.png?20120607">
 </head>
 <body>
