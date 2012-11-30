@@ -4,6 +4,18 @@ class Jekyll < Thor
   REMOTE = "vm.bearnaise.net:/home/sphax3d/ficusnode.com/"
   default_task :build
 
+  def self.build_dir
+    BUILD_DIR.chomp("/")
+  end
+
+  def self.assets_dir
+    ASSETS_DIR.chomp("/")
+  end
+
+  def self.remote
+    REMOTE.chomp("/")
+  end
+
   desc "build", "Build the Jekyll static site"
   def build
     system "bundle exec jekyll"
@@ -22,7 +34,7 @@ class Jekyll < Thor
     require "find"
     invoke :build
     print "Gzipping CSS and JS files... "
-    Find.find(ASSETS_DIR.chomp('/')) do |path|
+    Find.find(Jekyll.assets_dir) do |path|
       if FileTest.directory?(path)
         if File.basename(path)[0] == ?.
           Find.prune
@@ -39,7 +51,7 @@ class Jekyll < Thor
     puts "done"
     print "Deploying on the remote server... "
     # rsync: r = recursive, l = links, p = perms, t = times, z = compress
-    system "rsync -rlptz --delete-after #{BUILD_DIR.chomp('/')}/ #{REMOTE.chomp('/')}/"
+    system "rsync -rlptz --delete-after #{Jekyll.build_dir}/ #{Jekyll.remote}/"
     puts "done"
   end
 end
