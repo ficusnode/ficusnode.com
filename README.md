@@ -8,14 +8,14 @@ Install gem dependencies :
 
 ## Usage
 
-Generate the static site :
+Build the jekyll static site :
 
-  $ bundle exec jekyll
+  $ bundle exec thor jekyll:build
 
-Run the jekyll server and then browse to http://0.0.0.0:4000 :
+Run jekyll in development mode (optionnaly run the server to browse the static site at http://0.0.0.0:4000) :
 
-  $ bundle exec jekyll --server
+  $ bundle exec thor jekyll:dev [-s|--server]
 
-Deploy the generated static site :
+Deploy the jekyll static site :
 
-  $ bundle exec tasks/deploy
+  $ bundle exec thor jekyll:deploy
