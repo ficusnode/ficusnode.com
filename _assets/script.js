@@ -6,11 +6,11 @@ function konami(cheat) {
     if (obj.addEventListener) {
       obj.addEventListener(eventName, func, false);
     } else if (obj.attachEvent) {
-      obj.attachEvent('on' + eventName, func);
+      obj.attachEvent("on" + eventName, func);
     }
   }
   
-  addEvent(window, 'keydown', function(e) {
+  addEvent(window, "keydown", function(e) {
     if (!e) {
       e = event;
     }
@@ -34,7 +34,7 @@ function konami(cheat) {
 }
 
 function regex_className(className) {
-  return new RegExp('(\\s|^)' + className + '(\\s|$)');
+  return new RegExp("(\\s|^)" + className + "(\\s|$)");
 }
 
 function hasClass(el, className) {
@@ -49,7 +49,7 @@ function addClass(el, className) {
 
 function removeClass(el, className) {
   if (hasClass(el, className)) {
-    el.className = el.className.replace(regex_className(className), '');
+    el.className = el.className.replace(regex_className(className), "");
   }
 }
 
@@ -63,13 +63,13 @@ function toggleClass(el, className) {
 
 function desobfuscateMail() {
   if (document.querySelectorAll) {
-    els = document.querySelectorAll('span.mail');
+    els = document.querySelectorAll("span.mail");
     for (var i = 0; i < els.length; i++) {
       el = els[i];
-      mail = new Array(el.getAttribute('data-user'), el.getAttribute('data-domain')).join('@');
-      a = document.createElement('a');
-      a.href = 'mailto:' + mail;
-      a.title = el.getAttribute('data-title');
+      mail = new Array(el.getAttribute("data-user"), el.getAttribute("data-domain")).join("@");
+      a = document.createElement("a");
+      a.href = "mailto:" + mail;
+      a.title = el.getAttribute("data-title");
       a.innerHTML = mail;
       el.parentNode.replaceChild(a, el);
     }
@@ -79,7 +79,7 @@ function desobfuscateMail() {
 (function (){
   desobfuscateMail();
   konami(function() {
-    body = document.getElementsByTagName('body')[0];
-    toggleClass(body, 'konami');
+    body = document.getElementsByTagName("body")[0];
+    toggleClass(body, "konami");
   });
 })();
