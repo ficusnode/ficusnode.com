@@ -69,15 +69,15 @@ ins {
   zoom: 1; /* IE inline-block */
 }
 
-.site-title:link, .site-title:visited {
+a.site-title:link, a.site-title:visited {
   color: #333;
 }
 
-.site-title:hover {
+a.site-title:hover {
   text-shadow: 0 0 2px #fff, 0 0 3px rgba(51, 51, 51, .5);
 }
 
-.site-title:active, .site-title:visited:active {
+a.site-title:active, a.site-title:visited:active {
   color: #555;
 }
 

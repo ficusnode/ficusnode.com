@@ -1,3 +1,4 @@
 title: ficus node
+url: //ficusnode.com
 auto: false
 exclude: [README.md, Gemfile, Gemfile.lock, tasks.thor]
