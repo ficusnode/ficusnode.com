@@ -24,6 +24,13 @@ module JekyllAssetPipeline
   class CssCompressor < Compressor
     require 'yui/compressor'
 
+    class YUI::Compressor
+      def command
+        @command.insert 1, "-Xss8m"
+        @command.map { |word| Shellwords.escape(word) }.join(" ")
+      end
+    end
+
     def self.filetype
       '.css'
     end

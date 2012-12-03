@@ -1,0 +1,40 @@
+.favicon:before {
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  bottom: 1px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-right: 4px;
+  position: relative;
+  vertical-align: middle;
+  width: 16px;
+}
+
+.favicon-coteo:before {
+  background-image: inline-image("favicon-coteo.png");
+}
+
+.favicon-nilsine:before {
+  background-image: inline-image("favicon-nilsine.png");
+}
+
+.favicon-beangels:before {
+  background-image: inline-image("favicon-beangels.png");
+}
+
+.favicon-ivoiretraitement:before {
+  background-image: inline-image("favicon-ivoiretraitement.png");
+}
+
+.favicon-aperowebcalais:before {
+  background-image: inline-image("favicon-aperowebcalais.png");
+}
+
+.favicon-labetterave:before {
+  background-image: inline-image("favicon-labetterave.jpg");
+}
+
+.favicon-twitter:before {
+  background-image: inline-image("favicon-twitter.png");
+}

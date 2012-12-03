@@ -1,0 +1,27 @@
+doctype html
+html lang="fr"
+  head
+    meta charset="utf-8"
+    title {{ page.title }}
+    meta name="viewport" content="width=device-width, initial-scale=1"
+    meta name="author" content="Benjamin Danon"
+    meta name="description" content="ficus node, l’auto-entreprise de Benjamin Danon, de service en développement et administration web"
+    meta name="keywords" content="ficus node, benjamin, danon, calais"
+    link rel="stylesheet" href="//fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic&amp;subset=latin,latin-ext"
+    | {% css_asset_tag site %}
+      - _assets/charset.css
+      - _assets/normalize.css
+      - _assets/style.css
+      - _assets/favicon.css
+      {% endcss_asset_tag %}
+    link rel="shortcut icon" type="image/png" href="images/favicon-ficusnode.png?20120607"
+
+  body
+    div class="container"
+      header
+        | {% site_title %}
+        p class="tagline" Benjamin Danon, artisan du Web auto-entrepreneur, à Calais
+      | {{ content }}
+        {% javascript_asset_tag site %}
+        - _assets/script.js
+        {% endjavascript_asset_tag %}

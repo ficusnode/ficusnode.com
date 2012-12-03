@@ -18,6 +18,7 @@ class Jekyll < Thor
 
   desc "build", "Build the Jekyll static site"
   def build
+    system "bundle exec compass compile"
     system "bundle exec jekyll"
   end
 

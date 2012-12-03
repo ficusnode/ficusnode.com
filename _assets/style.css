@@ -111,17 +111,6 @@ h2 {
   top: .5em;
 }
 
-.favicon span { /* Hack for Gecko. Opera works */
-  white-space: nowrap;
-}
-
-.favicon img {
-  border-radius: 2px;
-  bottom: 1px;
-  position: relative;
-  vertical-align: middle;
-}
-
 /*! konami code for nerdz */
 
 .konami {

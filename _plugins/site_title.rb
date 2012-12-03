@@ -24,15 +24,15 @@ module Jekyll
     end
 
     def site_title_home
-      "<div class=site-title>#{site_title_img}<h1>#{@site_title_text}</h1></div>"
+      "<div class=\"site-title\">#{site_title_img}<h1>#{@site_title_text}</h1></div>"
     end
 
     def site_title_page
-      "<a href=\"#{@site_url}\" title=\"Retour à la page d’accueil\" class=site-title>#{site_title_img}#{@site_title_text}</a>"
+      "<a href=\"#{@site_url}\" title=\"Retour à la page d’accueil\" class=\"site-title\">#{site_title_img}#{@site_title_text}</a>"
     end
 
     def site_title_img
-      "<img src=\"images/logo-ficusnode-64x64.png?20120607\" alt=\"Logo de ficus node\" width=64 height=64>"
+      "<img src=\"images/logo-ficusnode-64x64.png?20120607\" alt=\"Logo de ficus node\" width=\"64\" height=\"64\">"
     end
   end
 end
