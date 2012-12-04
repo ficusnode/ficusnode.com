@@ -24,6 +24,8 @@ module JekyllAssetPipeline
   class CssCompressor < Compressor
     require 'yui/compressor'
 
+    # Tweak Java runtime
+    # source: https://github.com/sstephenson/ruby-yui-compressor/issues/19
     class YUI::Compressor
       def command
         @command.insert 1, "-Xss8m"
