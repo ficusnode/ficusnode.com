@@ -16,7 +16,7 @@ développement et administration web
 [Be Angels]: http://be-angels.fr/ "Site web de l’agence Be Angels"
 [Ivoire Traitement]: http://www.ivoiretraitement.com/ "Site web de l’entreprise Ivoire Traitement"
 
-## évènement {#evenement}
+## évènement
 
 [Apéroweb Calais]{:.favicon .favicon-aperowebcalais}, tous les premiers <del>mercredi</del> <ins>jeudi</ins> du mois, à [La Betterave]{:.favicon .favicon-labetterave}, à partir de 18h. Suivez [@aperoweb_calais]{:.favicon .favicon-twitter}
 
