@@ -1,0 +1,10 @@
+---
+require:
+- jekyll-compass
+project_path: "/home/sphax3d/code/ficusnode.com/jekyll/."
+http_path: "/"
+css_dir: ../_compass
+sass_dir: _assets/css
+images_dir: _assets/img
+javascripts_dir: _assets/js
+output_style: compressed

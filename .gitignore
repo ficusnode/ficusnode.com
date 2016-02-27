@@ -1,3 +1,4 @@
 _site/
-_assets/favicon.css
+_compass/style.css
 .sass-cache/
+.asset-cache/

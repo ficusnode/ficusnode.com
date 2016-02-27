@@ -1,9 +1,10 @@
+//= require normalize
 /*! Benjamin Danon (sphax3d) 2012-12-01 */
 /*! background from http://subtlepatterns.com/?p=922 */
 
 body {
   color: #333;
-  background: url("pattern-groovepaper.png?20121201") #f8f8f8;
+  background: url(asset_path("pattern-groovepaper.png")) #f8f8f8;
   line-height: 1.5em;
   margin: 1.5em auto;
   max-width: 60em;
@@ -114,7 +115,7 @@ h2 {
 /*! konami code for nerdz */
 
 .konami {
-  background: url("nyancat-background.png?20120521") #0f4d8f;
+  background: url(asset_path("nyancat-background.png")) #0f4d8f;
   color: #fff;
 }
 
@@ -131,7 +132,7 @@ h2 {
 }
 
 .konami .site-title:before {
-  background: url("rainbow-380x45.png?20120521") repeat-x;
+  background: url(asset_path("rainbow-380x45.png")) repeat-x;
   content: " ";
   display: block;
   height: 60px;
@@ -142,7 +143,7 @@ h2 {
 }
 
 .konami .site-title:after {
-  background: url("nyancat-100x70.gif?20120521") no-repeat;
+  background: url(asset_path("nyancat-100x70.gif")) no-repeat;
   content: " ";
   display: block;
   height: 70px;
@@ -205,4 +206,45 @@ h2 {
     margin: .5em 0;
     top: .25em;
   }
+}
+
+.favicon:before {
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  bottom: 1px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-right: 4px;
+  position: relative;
+  vertical-align: middle;
+  width: 16px;
+}
+
+.favicon-coteo:before {
+  background-image: inline-image("favicon-coteo.png");
+}
+
+.favicon-nilsine:before {
+  background-image: inline-image("favicon-nilsine.png");
+}
+
+.favicon-beangels:before {
+  background-image: inline-image("favicon-beangels.png");
+}
+
+.favicon-ivoiretraitement:before {
+  background-image: inline-image("favicon-ivoiretraitement.png");
+}
+
+.favicon-aperowebcalais:before {
+  background-image: inline-image("favicon-aperowebcalais.png");
+}
+
+.favicon-labetterave:before {
+  background-image: inline-image("favicon-labetterave.jpg");
+}
+
+.favicon-twitter:before {
+  background-image: inline-image("favicon-twitter.png");
 }

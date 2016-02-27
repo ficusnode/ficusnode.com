@@ -18,15 +18,14 @@ class Jekyll < Thor
 
   desc "build", "Build the Jekyll static site"
   def build
-    system "bundle exec compass compile"
-    system "bundle exec jekyll"
+    system "JEKYLL_ENV=production bundle exec jekyll build"
   end
 
   desc "dev", "Run the jekyll server and continuously regenerates updated files"
   method_option :server, :type => :boolean, :aliases => "-s", :desc => "Optionnaly run the server to browse to http://0.0.0.0:4000"
   def dev
-    command = "bundle exec jekyll --auto"
-    command += " --server" if options[:server]
+    command = "bundle exec jekyll build --watch"
+    command = "bundle exec jekyll serve" if options[:server]
     system command
   end
 

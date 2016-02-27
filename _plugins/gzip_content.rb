@@ -83,7 +83,7 @@ module Jekyll
     priority :lowest
 
     def generate(site)
-      everything = site.pages + site.posts + site.static_files
+      everything = site.pages + site.posts.docs
       zipped = everything.select { |p| should_compress p }.collect { |p|
         GzippedContent.new(p)
       }
