@@ -1,6 +1,13 @@
 title: ficus node
-url: //ficusnode.com
-exclude: [README.md, Gemfile, Gemfile.lock, tasks.thor, config.rb]
+keywords: ficus node, benjamin, danon, calais, artisan, développeur, administrateur, web
+tagline: Benjamin Danon, artisan du web auto-entrepreneur à Calais
+exclude: [README.md, Gemfile, Gemfile.lock, tasks.thor, ficusnode.com.nginx.conf]
 gems:
   - jekyll-assets
   - jekyll-compass
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

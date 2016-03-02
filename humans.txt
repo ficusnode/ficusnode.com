@@ -1,8 +1,11 @@
 /* humanstxt.org */
 
 /* TEAM */
-
 Name: Benjamin Danon
 Site: http://sphax3d.org
 Twitter: @sphax3d
 Location: Calais, France
+
+/* SITE */
+Last update: 2016/03/01
+Standards: HTML5, CSS3

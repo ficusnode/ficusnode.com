@@ -1,10 +1,11 @@
+//= require _fonts
 //= require normalize
-/*! Benjamin Danon (sphax3d) 2012-12-01 */
+/*! Benjamin Danon (sphax3d) 2016-03-01 */
 /*! background from http://subtlepatterns.com/?p=922 */
 
 body {
   color: #333;
-  background: url(asset_path("pattern-groovepaper.png")) #f8f8f8;
+  background: url(asset_path("pattern-groovepaper.png")) #fcfcfc;
   line-height: 1.5em;
   margin: 1.5em auto;
   max-width: 60em;
@@ -16,32 +17,58 @@ body {
   padding-left: 6em;
 }
 
-::selection, ::-moz-selection {color: #fff; background: #3a3;}
-img::selection, img::-moz-selection {background: transparent;}
+::selection {color: #fff; background: #3a3;}
+::-moz-selection {color: #fff; background: #3a3;}
+img::selection {background: transparent;}
+img::-moz-selection {background: transparent;}
+
+a {
+  text-decoration: none;
+}
 
 a:link {
 	color: #3a3;
-	text-decoration: none;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	-o-hyphens: none;
+	hyphens: none;
 }
 
 a:visited {
   color: #338233;
 }
 
-a:hover {
-  text-shadow: 0 0 2px #fff, 0 0 3px rgba(51, 170, 51, .5);
+a:hover,
+a:focus {
+  background: #3a3;
+  border-radius: .2em;
+  color: #fff;
+  margin: -.2em;
+  padding: .2em;
 }
 
-a:visited:hover {
-  text-shadow: 0 0 2px #fff, 0 0 3px rgba(51, 130, 51, .5);
+a:visited:hover,
+a:visited:focus {
+  background: #338233;
 }
 
 a:active {
-  color: #33be33;
+  background: #335a33;
 }
 
 a:visited:active {
-  color: #339633;
+  background: #335a33;
+}
+
+a:hover::selection {
+  color: #3a3;
+  background: #fff;
+}
+
+a:hover::-moz-selection {
+  color: #3a3;
+  background: #fff;
 }
 
 p {
@@ -100,6 +127,7 @@ a.site-title:active, a.site-title:visited:active {
 .tagline {
   font-size: 1.5em;
   font-style: italic;
+  font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em;
   position: relative;
@@ -119,16 +147,17 @@ h2 {
   color: #fff;
 }
 
-.konami ::selection, .konami ::-moz-selection {background: pink;}
-.konami img::selection, .konami img::-moz-selection {background: transparent;}
+.konami ::selection {background: #ff99ff;}
+.konami ::-moz-selection {background: #ff99ff;}
+.konami img::selection {background: transparent;}
+.konami img::-moz-selection {background: transparent;}
 
 .konami a:link, .konami a:visited {
   color: #fff;
 }
 
 .konami a:hover, .konami a:active, .konami a:visited:active {
-  color: pink;
-  text-shadow: none;
+  background: #ff99ff;
 }
 
 .konami .site-title:before {
@@ -140,6 +169,12 @@ h2 {
   position: absolute;
   top: 15px;
   width: 760px;
+}
+
+.konami p,
+.konami .site-title,
+.konami h2 {
+  background: #0f4d8f;
 }
 
 .konami .site-title:after {
@@ -165,6 +200,9 @@ h2 {
     margin-right: 1em;
     padding-left: 0;
   }
+  p {
+    margin: 0 0 .875em;
+  }
   .site-title {
     font-size: 3em;
     line-height: 1em;
@@ -177,6 +215,16 @@ h2 {
     position: relative;
     top: 0;
     width: 48px;
+  }
+  .tagline {
+    font-size: 1.375em;
+    line-height: 1.1em;
+    margin: 0 0 .8em;
+    top: -.4em;
+  }
+  h2 {
+    margin: .75em 0;
+    top: .375em;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -208,7 +256,7 @@ h2 {
   }
 }
 
-.favicon:before {
+[class^="favicon-"]:before, [class*=" favicon-"]:before {
   background-repeat: no-repeat;
   border-radius: 2px;
   bottom: 1px;
@@ -221,30 +269,8 @@ h2 {
   width: 16px;
 }
 
-.favicon-coteo:before {
-  background-image: inline-image("favicon-coteo.png");
-}
-
-.favicon-nilsine:before {
-  background-image: inline-image("favicon-nilsine.png");
-}
-
-.favicon-beangels:before {
-  background-image: inline-image("favicon-beangels.png");
-}
-
-.favicon-ivoiretraitement:before {
-  background-image: inline-image("favicon-ivoiretraitement.png");
-}
-
-.favicon-aperowebcalais:before {
-  background-image: inline-image("favicon-aperowebcalais.png");
-}
-
-.favicon-labetterave:before {
-  background-image: inline-image("favicon-labetterave.jpg");
-}
-
-.favicon-twitter:before {
-  background-image: inline-image("favicon-twitter.png");
+@each $favicon in beangels, expertinbox, agora, lacofabrique, applicook, ateliermasala, barreoblique, ficusnode, lelieucommun {
+  .favicon-#{$favicon}:before {
+    background-image: inline-image("favicon-#{$favicon}.png");
+  }
 }

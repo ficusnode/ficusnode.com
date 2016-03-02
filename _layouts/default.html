@@ -2,19 +2,23 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Benjamin Danon">
+    <title>{% page_title %}</title>
+    {% meta_refresh %}
+    <meta name="viewport" content="initial-scale=1">
+    <meta name="author" content="/humans.txt">
     <meta name="description" content="ficus node, l’auto-entreprise de Benjamin Danon, de service en développement et administration web">
-    <meta name="keywords" content="ficus node, benjamin, danon, calais">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic&amp;subset=latin,latin-ext">
-    {% css style %}
+    <meta name="keywords" content="{% page_keywords %}">
     <link rel="shortcut icon" type="image/png" href="{% asset_path favicon-ficusnode.png %}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{% asset_path touch-icon-144x144.png %}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{% asset_path touch-icon-114x114.png %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{% asset_path touch-icon-72x72.png %}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{% asset_path touch-icon-57x57.png %}">
+    <link rel="apple-touch-icon" href="{% asset_path touch-icon.png %}">
+    {% css style %}
   <body>
     <div class="container">
       <header>
-        {% site_title %}
-        <p class="tagline">Benjamin Danon, artisan du Web auto-entrepreneur, à Calais</p>
+        {% page_header %}
       </header>
       {{ content }}
     </div>

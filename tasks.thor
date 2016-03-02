@@ -1,7 +1,7 @@
 class Jekyll < Thor
   BUILD_DIR = "_site/"
   ASSETS_DIR = "_site/assets/"
-  REMOTE = "vm.bearnaise.net:/home/sphax3d/ficusnode.com/"
+  REMOTE = "benjamin@grumpy.barreoblique.fr:/srv/www/ficusnode.com/"
   default_task :build
 
   def self.build_dir
@@ -18,6 +18,8 @@ class Jekyll < Thor
 
   desc "build", "Build the Jekyll static site"
   def build
+    system "rm -rf .asset-cache/" # bug with Sprockets that make jekyll skip assets files during building
+    system "bundle exec jekyll clean"
     system "JEKYLL_ENV=production bundle exec jekyll build"
   end
 
@@ -33,8 +35,8 @@ class Jekyll < Thor
   def deploy
     require "find"
     invoke :build
-    print "Gzipping CSS and JS files... "
-    Find.find(Jekyll.assets_dir) do |path|
+    print "Gzipping text-based files... "
+    Find.find(Jekyll.build_dir) do |path|
       if FileTest.directory?(path)
         if File.basename(path)[0] == ?.
           Find.prune
@@ -42,16 +44,15 @@ class Jekyll < Thor
           next
         end
       else
-        if (File.extname(path) == ".css" or File.extname(path) == ".js")
+        if [".css", ".eot", ".html", ".js", ".otf", ".svg", ".ttf", ".txt"].include?(File.extname(path)) and File.stat(path).size > 200
           system "gzip -c9 #{path} > #{path}.gz"
           system "touch #{path} #{path}.gz"
         end
       end
     end
     puts "done"
-    print "Deploying on the remote server... "
-    # rsync: r = recursive, l = links, p = perms, t = times, z = compress
-    system "rsync -rlptz --delete-after #{Jekyll.build_dir}/ #{Jekyll.remote}/"
+    print "Deploying on the remote server..."
+    system "rsync --recursive --links --perms --times --compress --delete-after #{Jekyll.build_dir}/ #{Jekyll.remote}/"
     puts "done"
   end
 end

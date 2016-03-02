@@ -22,6 +22,10 @@ Deploy the jekyll static site :
 
 ### To-do list
 
+- Make images retina-friendly
 - Enable image_optim only during jekyll building for production
 - GZIP assets with Jekyll Assets
+- GZIP HTML and static files with jekyll
 - Compress HTML
+- Stop using Compass
+- Optimize images before using them as CSS inline data

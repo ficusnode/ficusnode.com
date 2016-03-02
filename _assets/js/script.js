@@ -63,7 +63,7 @@ function toggleClass(el, className) {
 
 function desobfuscateMail() {
   if (document.querySelectorAll) {
-    els = document.querySelectorAll("span.mail");
+    els = document.querySelectorAll("span.email");
     for (var i = 0; i < els.length; i++) {
       el = els[i];
       mail = new Array(el.getAttribute("data-user"), el.getAttribute("data-domain")).join("@");

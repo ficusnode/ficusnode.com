@@ -8,8 +8,6 @@ module Kramdown
     class Base
       def generate_id(str)
         gen_id = str
-        #gen_id = str.gsub(/^[^a-zA-Z]+/, '')
-        #gen_id.tr!('^a-zA-Z0-9 -', '')
         gen_id.tr!(' ', '-')
         gen_id.downcase!
         gen_id = 'section' if gen_id.length == 0
