@@ -40,7 +40,8 @@ a:visited {
 }
 
 a:hover,
-a:focus {
+a:focus,
+a:active {
   background: #3a3;
   border-radius: .2em;
   color: #fff;
@@ -53,10 +54,7 @@ a:visited:focus {
   background: #338233;
 }
 
-a:active {
-  background: #335a33;
-}
-
+a:active,
 a:visited:active {
   background: #335a33;
 }
@@ -66,9 +64,17 @@ a:hover::selection {
   background: #fff;
 }
 
+a:visited:hover::selection {
+  color: #338233;
+}
+
 a:hover::-moz-selection {
   color: #3a3;
   background: #fff;
+}
+
+a:visited:hover::-moz-selection {
+  color: #338233;
 }
 
 p {
