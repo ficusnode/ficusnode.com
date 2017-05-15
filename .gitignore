@@ -2,3 +2,4 @@ _site/
 _compass/
 .sass-cache/
 .asset-cache/
+ficusnode.local.nginx.conf
