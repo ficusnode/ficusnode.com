@@ -1,6 +1,6 @@
 title: ficus node
 keywords: ficus node, benjamin, danon, calais, artisan, développeur, administrateur, web
-tagline: Benjamin Danon, artisan du web auto-entrepreneur à Calais
+tagline: Benjamin Danon, artisan du web à Calais
 exclude: [README.md, Gemfile, Gemfile.lock, tasks.thor, ficusnode.com.nginx.conf]
 gems:
   - jekyll-assets

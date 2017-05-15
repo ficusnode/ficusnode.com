@@ -275,7 +275,7 @@ h2 {
   width: 16px;
 }
 
-@each $favicon in beangels, expertinbox, agora, lacofabrique, applicook, ateliermasala, barreoblique, ficusnode, lelieucommun {
+@each $favicon in beangels, expertinbox, agora, lsc, opteos, lacofabrique, applicook, ateliermasala, barreoblique, ficusnode, lelieucommun {
   .favicon-#{$favicon}:before {
     background-image: inline-image("favicon-#{$favicon}.png");
   }

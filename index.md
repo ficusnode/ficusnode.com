@@ -13,6 +13,18 @@ développement et administration web
 [ExpertinBox]: http://www.expertinbox.com/ "Site web de l’entreprise ExpertinBox"
 [Agora]: http://www.agora-berck.com/ "Site web du centre de loisirs Agora à Berck"
 
+## communs
+
+[LSC]{:.favicon-lsc}, _Legal Service for Commons_, structure juridique pour soutenir les communs
+
+[LSC]: http://legalserviceforcommons.initiative.place/ "Site web de la LSC"
+
+## coopérative
+
+[Optéos]{:.favicon-opteos}, société coopérative d’activité et d’emploi dans le domaine de l’innovation sociale et du numérique
+
+[Optéos]: http://www.opteos.fr/ "Site web de la coopérative Optéos"
+
 ## collectif
 
 [La Cofabrique]{:.favicon-lacofabrique}&nbsp;: [Applicook]{:.favicon-applicook}, [Atelier Masala]{:.favicon-ateliermasala}, [Barre oblique]{:.favicon-barreoblique} et [Ficus Node]{:.favicon-ficusnode}
