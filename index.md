@@ -3,41 +3,52 @@
 
 ## services
 
-développement et administration web
+- infogérance de serveur web : Debian GNU/Linux, nginx, Apache, PHP, Ruby, Node.js, MySQL, MongoDB…
+- hébergement de site et d’application web : WordPress, PrestaShop, Drupal, Piwik, GitLab, Redmine…
+- configuration et transfert de nom de domaine
+- mise en place de certificat SSL et du support IPv6
+- développement, intégration et maintenance de site web
+- conseil en performance web côté serveur et côté client
 
 ## clients
 
-[Be Angels]{:.favicon-beangels}, [ExpertinBox]{:.favicon-expertinbox} et [Agora]{:.favicon-agora}
+- [Be Angels]{:.favicon-beangels} : infogérance d’une dizaine de serveurs de production et de développement depuis 2011
+- [ExpertinBox]{:.favicon-expertinbox} : infogérance de serveur et hébergement de sites web WordPress depuis 2014
+- [Agora]{:.favicon-agora} : hébergement du site web WordPress depuis 2014
+- [Balzanes]{:.favicon-balzanes} : intégration adaptative CSS et interface JavaScript
+{:.no-style}
 
 [Be Angels]: http://be-angels.fr/ "Site web de l’agence Be Angels"
 [ExpertinBox]: http://www.expertinbox.com/ "Site web de l’entreprise ExpertinBox"
 [Agora]: http://www.agora-berck.com/ "Site web du centre de loisirs Agora à Berck"
+[Balzanes]: http://balzanes.net/ "Site web du photographe Pierre Misandeau"
 
 ## communs
 
-[LSC]{:.favicon-lsc}, _Legal Service for Commons_, structure juridique pour soutenir les communs
+Infogérance de serveurs et hébergement d’applications web _open source_ pour la [LSC]{:.favicon-lsc}, _Legal Service for Commons_, structure juridique de soutien aux [communs]{:.favicon-wikipedia}
 
 [LSC]: http://legalserviceforcommons.initiative.place/ "Site web de la LSC"
+[communs]: https://fr.wikipedia.org/wiki/Communs "Article Wikipédia sur les communs"
 
 ## coopérative
 
-[Optéos]{:.favicon-opteos}, société coopérative d’activité et d’emploi dans le domaine de l’innovation sociale et du numérique
+[Optéos]{:.favicon-opteos}, société coopérative d’activité et d’emploi dans le domaine de l’innovation sociale et du numérique, dont est membre [Ficus Node]{:.favicon-ficusnode}
 
 [Optéos]: http://www.opteos.fr/ "Site web de la coopérative Optéos"
+[Ficus Node]: http://ficusnode.com/ "Site web de l’auto-entrepreneur Benjamin Danon"
 
 ## collectif
 
-[La Cofabrique]{:.favicon-lacofabrique}&nbsp;: [Applicook]{:.favicon-applicook}, [Atelier Masala]{:.favicon-ateliermasala}, [Barre oblique]{:.favicon-barreoblique} et [Ficus Node]{:.favicon-ficusnode}
+[La Cofabrique]{:.favicon-lacofabrique}, collaboration de quatre indépendants artisans du web : [Applicook]{:.favicon-applicook}, [Atelier Masala]{:.favicon-ateliermasala}, [Barre oblique]{:.favicon-barreoblique} et [Ficus Node]{:.favicon-ficusnode}
 
 [La Cofabrique]: http://lacofabrique.fr/ "Site web du collectif La Cofabrique"
 [Applicook]: http://applicook.fr/ "Site web de l’entreprise Applicook d’Olivier Kowalski"
 [Atelier Masala]: http://www.atelier-masala.com/ "Site web de l’auto-entrepreneur Vincent Jozefcyk"
 [Barre oblique]: http://barreoblique.fr/ "Site web de l’entreprise Barre oblique de Cédric Vannier"
-[Ficus Node]: http://ficusnode.com/ "Site web de l’auto-entrepreneur Benjamin Danon"
 
 ## lieu
 
-[Le Lieu Commun]{:.favicon-lelieucommun}, tiers-lieu de vie et de travail partagé à Calais
+[Le Lieu Commun]{:.favicon-lelieucommun}, tiers-lieu de vie et de travail partagé, accueillant les indépendants et télé-travailleurs dans un _open space_ calme et convivial au cœur du centre-ville de Calais
 
 [Le Lieu Commun]: http://lelieucommun.fr/ "Site web de l’espace de travail partagé Le Lieu Commun"
 

@@ -87,6 +87,16 @@ p {
   word-wrap: break-word;
 }
 
+ul {
+  padding-left: 20px;
+  list-style: circle;
+}
+
+ul.no-style {
+  padding-left: 0;
+  list-style: none;
+}
+
 ins {
   font-weight: bold;
   text-decoration: none;
@@ -275,7 +285,7 @@ h2 {
   width: 16px;
 }
 
-@each $favicon in beangels, expertinbox, agora, lsc, opteos, lacofabrique, applicook, ateliermasala, barreoblique, ficusnode, lelieucommun {
+@each $favicon in beangels, expertinbox, agora, balzanes, lsc, wikipedia, opteos, lacofabrique, applicook, ateliermasala, barreoblique, ficusnode, lelieucommun {
   .favicon-#{$favicon}:before {
     background-image: inline-image("favicon-#{$favicon}.png");
   }
