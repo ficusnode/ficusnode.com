@@ -32,14 +32,14 @@ Infogérance de serveurs et hébergement d’applications web _open source_ pour
 
 ## coopérative
 
-[Optéos]{:.favicon-opteos}, société coopérative d’activité et d’emploi dans le domaine de l’innovation sociale et du numérique, dont est membre [Ficus Node]{:.favicon-ficusnode}
+[Optéos]{:.favicon-opteos}, société coopérative d’activité et d’emploi dans le domaine de l’innovation sociale et du numérique, dont est membre [ficus node]{:.favicon-ficusnode}
 
 [Optéos]: http://www.opteos.fr/ "Site web de la coopérative Optéos"
-[Ficus Node]: http://ficusnode.com/ "Site web de l’auto-entrepreneur Benjamin Danon"
+[ficus node]: http://ficusnode.com/ "Site web de l’auto-entrepreneur Benjamin Danon"
 
 ## collectif
 
-[La Cofabrique]{:.favicon-lacofabrique}, collaboration de quatre indépendants artisans du web : [Applicook]{:.favicon-applicook}, [Atelier Masala]{:.favicon-ateliermasala}, [Barre oblique]{:.favicon-barreoblique} et [Ficus Node]{:.favicon-ficusnode}
+[La Cofabrique]{:.favicon-lacofabrique}, collaboration de quatre indépendants artisans du web : [Applicook]{:.favicon-applicook}, [Atelier Masala]{:.favicon-ateliermasala}, [Barre oblique]{:.favicon-barreoblique} et [ficus Node]{:.favicon-ficusnode}
 
 [La Cofabrique]: http://lacofabrique.fr/ "Site web du collectif La Cofabrique"
 [Applicook]: http://applicook.fr/ "Site web de l’entreprise Applicook d’Olivier Kowalski"
