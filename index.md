@@ -18,44 +18,44 @@
 - [Balzanes]{:.favicon-balzanes} : intégration adaptative CSS et interface JavaScript
 {:.no-style}
 
-[Be Angels]: http://be-angels.fr/ "Site web de l’agence Be Angels"
-[ExpertinBox]: http://www.expertinbox.com/ "Site web de l’entreprise ExpertinBox"
-[Agora]: http://www.agora-berck.com/ "Site web du centre de loisirs Agora à Berck"
-[Balzanes]: http://balzanes.net/ "Site web du photographe Pierre Misandeau"
+[Be Angels]: http://be-angels.fr/ "site web de l’agence Be Angels"
+[ExpertinBox]: http://www.expertinbox.com/ "site web de l’entreprise ExpertinBox"
+[Agora]: http://www.agora-berck.com/ "site web du centre de loisirs Agora à Berck"
+[Balzanes]: http://balzanes.net/ "site web du photographe Pierre Misandeau"
 
 ## communs
 
-Infogérance de serveurs et hébergement d’applications web _open source_ pour la [LSC]{:.favicon-lsc}, _Legal Service for Commons_, structure juridique de soutien aux [communs]{:.favicon-wikipedia}
+infogérance de serveurs et hébergement d’applications web _open source_ pour la [LSC]{:.favicon-lsc}, _Legal Service for Commons_, structure juridique de soutien aux [communs]{:.favicon-wikipedia}
 
-[LSC]: http://legalserviceforcommons.initiative.place/ "Site web de la LSC"
-[communs]: https://fr.wikipedia.org/wiki/Communs "Article Wikipédia sur les communs"
+[LSC]: http://legalserviceforcommons.initiative.place/ "site web de la LSC"
+[communs]: https://fr.wikipedia.org/wiki/Communs "article Wikipédia sur les communs"
 
 ## coopérative
 
 [Optéos]{:.favicon-opteos}, société coopérative d’activité et d’emploi dans le domaine de l’innovation sociale et du numérique, dont est membre [ficus node]{:.favicon-ficusnode}
 
-[Optéos]: http://www.opteos.fr/ "Site web de la coopérative Optéos"
-[ficus node]: http://ficusnode.com/ "Site web de l’auto-entrepreneur Benjamin Danon"
+[Optéos]: http://www.opteos.fr/ "site web de la coopérative Optéos"
+[ficus node]: http://ficusnode.com/ "site web de l’auto-entrepreneur Benjamin Danon"
 
 ## collectif
 
-[La Cofabrique]{:.favicon-lacofabrique}, collaboration de quatre indépendants artisans du web : [Applicook]{:.favicon-applicook}, [Atelier Masala]{:.favicon-ateliermasala}, [Barre oblique]{:.favicon-barreoblique} et [ficus Node]{:.favicon-ficusnode}
+[La Cofabrique]{:.favicon-lacofabrique}, collaboration de quatre indépendants artisans du web : [Applicook]{:.favicon-applicook}, [Atelier Masala]{:.favicon-ateliermasala}, [Barre oblique]{:.favicon-barreoblique} et [ficus node]{:.favicon-ficusnode}
 
-[La Cofabrique]: http://lacofabrique.fr/ "Site web du collectif La Cofabrique"
-[Applicook]: http://applicook.fr/ "Site web de l’entreprise Applicook d’Olivier Kowalski"
-[Atelier Masala]: http://www.atelier-masala.com/ "Site web de l’auto-entrepreneur Vincent Jozefcyk"
-[Barre oblique]: http://barreoblique.fr/ "Site web de l’entreprise Barre oblique de Cédric Vannier"
+[La Cofabrique]: http://lacofabrique.fr/ "site web du collectif La Cofabrique"
+[Applicook]: http://applicook.fr/ "site web de l’entreprise Applicook d’Olivier Kowalski"
+[Atelier Masala]: http://www.atelier-masala.com/ "site web de l’auto-entrepreneur Vincent Jozefcyk"
+[Barre oblique]: http://barreoblique.fr/ "site web de l’entreprise Barre oblique de Cédric Vannier"
 
 ## lieu
 
 [Le Lieu Commun]{:.favicon-lelieucommun}, tiers-lieu de vie et de travail partagé, accueillant les indépendants et télé-travailleurs dans un _open space_ calme et convivial au cœur du centre-ville de Calais
 
-[Le Lieu Commun]: http://lelieucommun.fr/ "Site web de l’espace de travail partagé Le Lieu Commun"
+[Le Lieu Commun]: http://lelieucommun.fr/ "site web de l’espace de travail partagé Le Lieu Commun"
 
 ## contact
 
 <span>benjamin<img alt="@">ficusnode.com</span>{:email-benjamin}
 
-{:email-benjamin: .email data-user="benjamin" data-domain="ficusnode.com" data-title="Contacter Benjamin Danon par courriel" }
+{:email-benjamin: .email data-user="benjamin" data-domain="ficusnode.com" data-title="contacter Benjamin Danon par courriel" }
 
-[mentions légales](/mentions-legales "Mentions légales du site web ficusnode.com")
+[mentions légales](/mentions-legales "mentions légales du site web ficusnode.com")
