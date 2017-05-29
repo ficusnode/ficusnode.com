@@ -35,7 +35,7 @@ infogérance de serveurs et hébergement d’applications web _open source_ pour
 [Optéos]{:.favicon-opteos}, société coopérative d’activité et d’emploi dans le domaine de l’innovation sociale et du numérique, dont est membre [ficus node]{:.favicon-ficusnode}
 
 [Optéos]: http://www.opteos.fr/ "site web de la coopérative Optéos"
-[ficus node]: https://ficusnode.com/ "site web de l’auto-entrepreneur Benjamin Danon"
+[ficus node]: https://ficusnode.com/ "site web de l’entreprise de Benjamin Danon"
 
 ## collectif
 
@@ -43,7 +43,7 @@ infogérance de serveurs et hébergement d’applications web _open source_ pour
 
 [La Cofabrique]: http://lacofabrique.fr/ "site web du collectif La Cofabrique"
 [Applicook]: http://applicook.fr/ "site web de l’entreprise Applicook d’Olivier Kowalski"
-[Atelier Masala]: http://www.atelier-masala.com/ "site web de l’auto-entrepreneur Vincent Jozefcyk"
+[Atelier Masala]: http://www.atelier-masala.com/ "site web de l’entrepreneur individuel Vincent Jozefcyk"
 [Barre oblique]: http://barreoblique.fr/ "site web de l’entreprise Barre oblique de Cédric Vannier"
 
 ## lieu
