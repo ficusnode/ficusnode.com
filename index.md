@@ -35,7 +35,7 @@ infogérance de serveurs et hébergement d’applications web _open source_ pour
 [Optéos]{:.favicon-opteos}, société coopérative d’activité et d’emploi dans le domaine de l’innovation sociale et du numérique, dont est membre [ficus node]{:.favicon-ficusnode}
 
 [Optéos]: http://www.opteos.fr/ "site web de la coopérative Optéos"
-[ficus node]: http://ficusnode.com/ "site web de l’auto-entrepreneur Benjamin Danon"
+[ficus node]: https://ficusnode.com/ "site web de l’auto-entrepreneur Benjamin Danon"
 
 ## collectif
 
