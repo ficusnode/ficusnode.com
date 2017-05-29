@@ -1,6 +1,7 @@
 title: ficus node
-keywords: ficus node, benjamin, danon, calais, artisan, développeur, administrateur, web
 tagline: Benjamin Danon, artisan du web à Calais
+description: ficus node, l’entreprise de Benjamin Danon, de service en développement et administration web
+keywords: ficus node, benjamin, danon, calais, artisan, développeur, administrateur, web
 exclude: [README.md, Gemfile, Gemfile.lock, tasks.thor, ficusnode.com.nginx.conf]
 gems:
   - jekyll-assets
